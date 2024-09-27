@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    gap: 30px;
+}
+.post{
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #a14753;
+    border-radius: 4px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    background-color: #a14753;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 0;
+    display: block;
+}
